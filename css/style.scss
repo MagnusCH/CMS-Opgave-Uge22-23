@@ -1,3 +1,11 @@
+html {
+    background: url(../img/softsoftWebTile%20.jpg);
+}
+
+.container {
+    background-color: white;
+}
+
 .clear {
     clear: both;
 }
@@ -11,8 +19,9 @@
         z-index: 2;
         font-family: Blackadder ITC;
         font-size: 72px;
-        color: black;
-        left: 65%;
+        background: -webkit-linear-gradient( left top, pink, #AC338E);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
@@ -51,6 +60,17 @@ main {
     p {
         font-size: 20px;
     }
+    .date {
+        margin: 0 auto;
+        max-width: 400px;
+        background-color: wheat;
+        height: auto;
+        p {
+            text-align: center;
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
 }
 
 aside {
@@ -74,7 +94,7 @@ aside {
             font-size: 25px;
         }
     }
-    .infoBox {
+    .loginBox {
         .textFrame {
             margin-left: 10px;
         }
@@ -84,6 +104,16 @@ aside {
         }
         button {
             margin-left: 70px;
+        }
+    }
+    h3 {
+        margin-top: 40px;
+        font-size: 30px;
+        color: lightslategrey
+    }
+    .infobox {
+        p {
+            padding-left: 10px;
         }
     }
 }
