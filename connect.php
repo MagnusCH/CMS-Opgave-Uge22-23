@@ -1,7 +1,7 @@
 <?php 
 
 $host ="localhost";
-$dbName ="slothBlog";
+$dbName ="slothblog";
 $dbUsername ="root";
 $dbPassword ="";
 

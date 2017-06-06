@@ -43,24 +43,25 @@
             <!-- Main -->
             <div class="eight columns">
                 <main>
-                    <article> <img src="img/sloth1Edit.jpg" alt="DollaSloth">
+                    <article>
+                        <?php
+                        include "fetchDb.php";
+                        ?>
+                            <!-- <img src="img/sloth1Edit.jpg" alt="DollaSloth">
                         <h2>Dolla dolla bill y'all.</h2>
-                        <!-- Dato -->
-                        <div class="date">
-                            <p>Dolla dolla bill y'all</p>
-                        </div>
-                        <!-- Dato end -->
+                        <!-- Dato 
+                        
+                           <p class="date">Dolla dolla bill y'all</p>
+                        
+                        <!-- Dato end 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione placeat, natus delectus unde amet, inventore temporibus tempora maxime autem accusamus aperiam ducimus, reprehenderit, omnis culpa quod harum reiciendis dolore!</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos aliquam rerum impedit temporibus officia consectetur, nisi, nihil officiis perferendis veritatis dolorum vel eaque, praesentium qui dolores provident alias sapiente eveniet!</p>
                         <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tenetur nulla beatae, possimus in repellat placeat doloremque ipsum rem sit! Quibusdam at iste pariatur voluptas eligendi excepturi necessitatibus nisi quas.</p>
-                    </article>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tenetur nulla beatae, possimus in repellat placeat doloremque ipsum rem sit! Quibusdam at iste pariatur voluptas eligendi excepturi necessitatibus nisi quas.</p> --></article>
                     <hr> <img src="img/sloth5Edit.jpg" alt="derpSloth">
                     <h2>Idk hvad det her er? &uArr;</h2>
                     <!-- Dato -->
-                    <div class="date">
-                        <p>Dolla dolla bill y'all</p>
-                    </div>
+                    <p class="date">Dolla dolla bill y'all</p>
                     <!-- Dato end -->
                 </main>
                 <!-- Main end -->
