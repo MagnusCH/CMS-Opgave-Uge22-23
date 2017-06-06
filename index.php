@@ -38,21 +38,24 @@
                 </nav>
             </div>
         </div>
+        <hr>
         <div class="row">
             <!-- Main -->
             <div class="eight columns">
-                <main> <img src="img/sloth1Edit.jpg" alt="">
-                    <h2>Dolla dolla bill y'all.</h2>
-                    <!-- Dato -->
-                    <div class="date">
-                        <p id="demo"></p>
-                    </div>
-                    <!-- Dato end -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione placeat, natus delectus unde amet, inventore temporibus tempora maxime autem accusamus aperiam ducimus, reprehenderit, omnis culpa quod harum reiciendis dolore!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos aliquam rerum impedit temporibus officia consectetur, nisi, nihil officiis perferendis veritatis dolorum vel eaque, praesentium qui dolores provident alias sapiente eveniet!</p>
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tenetur nulla beatae, possimus in repellat placeat doloremque ipsum rem sit! Quibusdam at iste pariatur voluptas eligendi excepturi necessitatibus nisi quas.</p>
-                    <hr> <img src="img/sloth5Edit.jpg" alt="">
+                <main>
+                    <article> <img src="img/sloth1Edit.jpg" alt="DollaSloth">
+                        <h2>Dolla dolla bill y'all.</h2>
+                        <!-- Dato -->
+                        <div class="date">
+                            <p id="demo"></p>
+                        </div>
+                        <!-- Dato end -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione placeat, natus delectus unde amet, inventore temporibus tempora maxime autem accusamus aperiam ducimus, reprehenderit, omnis culpa quod harum reiciendis dolore!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos aliquam rerum impedit temporibus officia consectetur, nisi, nihil officiis perferendis veritatis dolorum vel eaque, praesentium qui dolores provident alias sapiente eveniet!</p>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tenetur nulla beatae, possimus in repellat placeat doloremque ipsum rem sit! Quibusdam at iste pariatur voluptas eligendi excepturi necessitatibus nisi quas.</p>
+                    </article>
+                    <hr> <img src="img/sloth5Edit.jpg" alt="derpSloth">
                     <h2>Idk hvad det her er? &uArr;</h2>
                     <!-- Dato -->
                     <div class="date">
