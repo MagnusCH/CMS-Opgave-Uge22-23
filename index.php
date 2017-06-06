@@ -47,7 +47,7 @@
                         <h2>Dolla dolla bill y'all.</h2>
                         <!-- Dato -->
                         <div class="date">
-                            <p id="demo"></p>
+                            <p>Dolla dolla bill y'all</p>
                         </div>
                         <!-- Dato end -->
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione placeat, natus delectus unde amet, inventore temporibus tempora maxime autem accusamus aperiam ducimus, reprehenderit, omnis culpa quod harum reiciendis dolore!</p>
@@ -66,9 +66,6 @@
                 <!-- Main end -->
                 <!-- Footer -->
                 <footer> Footer: info info info info info info </footer>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                    <button>Dont you dare press this!</button>
-                </a>
                 <hr> </div>
             <!-- Aside -->
             <div class="four columns">
