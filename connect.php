@@ -12,5 +12,6 @@ try{
 }catch(PDOException $e){
     echo "Noget gik galt!: <br>";
     echo $e->getMessage( );
+    
 }
 ?>

@@ -43,6 +43,62 @@
             <!-- Main -->
             <div class="eight columns">
                 <main>
+                    <!-- Article start -->
+                    <article>
+                        <!-- Form -->
+                        <form action="insert.php" method="get">
+                            <!-- FormGroup-class /heading -->
+                            <div class="formGroup">
+                                <!-- Label-->
+                                <label for="heading"> Artiklens overskrift her: </label>
+                                <!-- Lable end -->
+                                <!-- Input -->
+                                <input type="text" id="heading" name="heading" placeholder="Overskrift her...">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /heading end -->
+                            <!-- -->
+                            <!-- FormGroup-class /imgSrc -->
+                            <div class="formGroup">
+                                <!-- Label -->
+                                <label for="imgSrc">Billednavn:</label>
+                                <!-- Lable end -->
+                                <!-- Input -->
+                                <input type="text" id="imgSrc" name="imgSrc" placeholder="Sti til billede uden .jpg">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /imgSrc end -->
+                            <!-- -->
+                            <!-- FormGroup-class /imgAlt -->
+                            <div class="formGroup">
+                                <!-- Label -->
+                                <label for="imgAlt">Alt tekst til billede:</label>
+                                <!-- Lable end -->
+                                <!-- Input -->
+                                <input type="text" id="imgAlt" name="imgAlt" placeholder="Alt tekst til billede">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /imgAlt end -->
+                            <!-- -->
+                            <!-- FormGroup-class /articleText -->
+                            <div class="formGroup">
+                                <!-- Label -->
+                                <label for="articleText">Artiklens tekst her</label>
+                                <!-- Lable end -->
+                                <!-- Input -->
+                                <input type="text" id="articleText" name="articleText" placeholder="Tekst her...">
+                                <!-- Imput end -->
+                            </div>
+                            <!-- FormGroup-class /imgSrc end -->
+                            <!-- -->
+                            <!-- Indsæt -->
+                            <input class="button-primary" type="submit" value="insæt">
+                            <!-- Indsæt end -->
+                        </form>
+                        <!-- Form end -->
+                        <hr> </article>
+                    <!-- Article end -->
+                    <!-- Article start -->
                     <article>
                         <?php
                         include "fetchDb.php";
@@ -76,15 +132,15 @@
                             <p>Log ind</p>
                         </div>
                         <div class="loginBox">
-                            <label for="frame">
+                            <label for="brugernavn">
                                 <div class="textFrame">Brugernavn:</div>
                             </label>
                             <input type="text" id="brugernavn" name="brugernavn">
-                            <label for="frame">
+                            <label for="password">
                                 <div class="textFrame">Password:</div>
                             </label>
-                            <input type="text" id="password" name="password">
-                            <button>Log ind</button>
+                            <input type="password" id="password" name="password">
+                            <button class="button-primary">Log ind</button>
                         </div>
                     </div>
                     <h3>EPIC LEGENDARY SLOTHS</h3>

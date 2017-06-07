@@ -54,6 +54,12 @@ nav {
 }
 
 main {
+    form {
+        .formGroup {}
+        input[type=text] {
+            width: 100%;
+        }
+    }
     img {
         width: 100%;
     }
@@ -99,6 +105,10 @@ aside {
             margin-left: 10px;
         }
         input[type=text] {
+            width: 75%;
+            margin-left: 20px;
+        }
+        input[type=password] {
             width: 75%;
             margin-left: 20px;
         }
