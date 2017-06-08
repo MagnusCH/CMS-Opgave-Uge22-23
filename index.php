@@ -53,7 +53,7 @@
                                 <label for="heading"> Artiklens overskrift her: </label>
                                 <!-- Lable end -->
                                 <!-- Input -->
-                                <input type="text" id="heading" name="heading" placeholder="Overskrift her...">
+                                <input class="u-full-width" type="text" id="heading" name="heading" placeholder="Overskrift her...">
                                 <!-- Imput end -->
                             </div>
                             <!-- FormGroup-class /heading end -->
@@ -64,7 +64,7 @@
                                 <label for="imgSrc">Billednavn:</label>
                                 <!-- Lable end -->
                                 <!-- Input -->
-                                <input type="text" id="imgSrc" name="imgSrc" placeholder="Sti til billede uden .jpg">
+                                <input class="u-full-width" type="text" id="imgSrc" name="imgSrc" placeholder="Sti til billede uden .jpg">
                                 <!-- Imput end -->
                             </div>
                             <!-- FormGroup-class /imgSrc end -->
@@ -75,7 +75,7 @@
                                 <label for="imgAlt">Alt tekst til billede:</label>
                                 <!-- Lable end -->
                                 <!-- Input -->
-                                <input type="text" id="imgAlt" name="imgAlt" placeholder="Alt tekst til billede">
+                                <input class="u-full-width" type="text" id="imgAlt" name="imgAlt" placeholder="Alt tekst til billede">
                                 <!-- Imput end -->
                             </div>
                             <!-- FormGroup-class /imgAlt end -->
@@ -83,11 +83,11 @@
                             <!-- FormGroup-class /articleText -->
                             <div class="formGroup">
                                 <!-- Label -->
-                                <label for="articleText">Artiklens tekst her</label>
+                                <label for="articleText">Artiklens tekst her:</label>
                                 <!-- Lable end -->
-                                <!-- Input -->
-                                <input type="text" id="articleText" name="articleText" placeholder="Tekst her...">
-                                <!-- Imput end -->
+                                <!-- Textarea -->
+                                <textarea class="u-full-width" id "articleText" name="articleText" placeholder="Tekst her..."></textarea>
+                                <!-- Textarea end -->
                             </div>
                             <!-- FormGroup-class /imgSrc end -->
                             <!-- -->
@@ -102,6 +102,7 @@
                     <article>
                         <?php
                         include "fetchDb.php";
+                        
                         ?>
                             <!-- <img src="img/sloth1Edit.jpg" alt="DollaSloth">
                         <h2>Dolla dolla bill y'all.</h2>
