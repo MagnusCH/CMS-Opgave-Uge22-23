@@ -42,30 +42,30 @@ nav li {
   padding: 0 30px;
   /* &:hover */ }
 
-/* line 45, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+/* line 44, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
 nav li:hover {
   background-color: wheat; }
 
-/* line 48, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+/* line 47, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
 nav a {
   text-decoration: none;
   font-size: 20px;
   color: black; }
 
-/* line 53, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+/* line 52, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
 nav a:hover {
   color: violet; }
 
-/* line 62, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+/* line 61, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
 main img {
   width: 100%; }
 
-/* line 65, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+/* line 64, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
 main p {
   font-size: 20px;
   margin-top: 20px; }
 
-/* line 69, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+/* line 68, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
 main .date {
   margin: 0 auto;
   max-width: 200px;
@@ -76,48 +76,48 @@ main .date {
   line-height: 30px;
   border-radius: 20px; }
 
-/* line 81, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+/* line 80, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
 aside {
   margin-left: 60px; }
-  /* line 83, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 82, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside .box {
     height: 300px;
     border: 2px solid blue;
     border-radius: 10px; }
-  /* line 88, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 87, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside .headBox {
     height: 75px;
     width: 100%;
     border-radius: 10px;
     background-color: lightblue;
     position: relative; }
-    /* line 94, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+    /* line 93, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
     aside .headBox p {
       position: absolute;
       top: 20%;
       left: 15%;
       color: blue;
       font-size: 25px; }
-  /* line 103, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 102, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside .loginBox .textFrame {
     margin-left: 10px; }
-  /* line 106, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 105, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside .loginBox input[type=text] {
     width: 75%;
     margin-left: 20px; }
-  /* line 110, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 109, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside .loginBox input[type=password] {
     width: 75%;
     margin-left: 20px; }
-  /* line 114, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 113, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside .loginBox button {
     align-content: center; }
-  /* line 118, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 117, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside h3 {
     margin-top: 40px;
     font-size: 30px;
     color: lightslategrey; }
-  /* line 124, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
+  /* line 123, ../../xampp/htdocs/cmsOpgave/CMS-Opgave-Uge22-23/css/style.scss */
   aside .infobox p {
     padding-left: 10px; }
 

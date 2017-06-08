@@ -45,6 +45,7 @@
                     <!-- Article start -->
                     <article>
                         <!-- Form -->
+                        <!-- action:"insert.php" Når du har udfyldt din formular og trykket på indsæt hvad skal der så ske, vi ryger over til insert.php-->
                         <form action="insert.php" method="get">
                             <!-- FormGroup-class /heading -->
                             <div class="formGroup">
@@ -100,6 +101,8 @@
                     <!-- Article start -->
                     <article>
                         <?php
+                        // inkludere fetchDb.php
+                        //tager indhold fra en anden fil (fetchDb.php) og ligger det her ind
                         include "fetchDb.php";
                         
                         ?>
