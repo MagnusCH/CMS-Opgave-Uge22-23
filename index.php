@@ -18,7 +18,6 @@
             </div>
         </header>
         <!-- Header end -->
-        <div class="clear"></div>
         <div class="row">
             <!-- Snail icon -->
             <div class="icon">
@@ -96,7 +95,7 @@
                             <!-- Indsæt end -->
                         </form>
                         <!-- Form end -->
-                        <hr> </article>
+                    </article>
                     <!-- Article end -->
                     <!-- Article start -->
                     <article>

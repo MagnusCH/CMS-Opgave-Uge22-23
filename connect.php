@@ -1,5 +1,5 @@
 <?php 
-
+ // laver variabler, giver værdi
 $host ="localhost";
 $dbName ="slothblog";
 $dbUsername ="root";
